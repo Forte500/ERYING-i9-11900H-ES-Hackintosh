@@ -56,14 +56,16 @@ If you decide to flash the lightning bios I **strongly recommend** to already ha
 
 ### ⚠️ Known Issues
 
-- After Verbose, there's a blackscreen for 2-3 minutes when booting off amd gpu
+~- After Verbose, there's a blackscreen for 2-3 minutes when booting off amd gpu~
+
+should have been solved with the `-wegswitchgpu` bootarg, which disable the internal GPU when an external GPU is installed
 
 ### 👨‍🔧 For those who haves an unsupported GPU:
 <details>
 <summary><strong></strong></summary>
   <br>
   
-You can still try out MacOS without graphics acceleration by using the Intel igpu, just add `-wegnoegpu` to your bootargs
+You can still try out MacOS without graphics acceleration by using the Intel igpu, add `-wegnoegpu` to your bootargs and remove `-wegswitchgpu`
 </details>
 
 ## ⚙️ Setup
