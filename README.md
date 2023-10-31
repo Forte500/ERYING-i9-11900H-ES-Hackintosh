@@ -5,8 +5,8 @@
 alt="erying mobo" width="350">
 
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.2-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
-![macOSver](https://img.shields.io/badge/macOS-14DP1-brightgreen.svg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.5-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
+![macOSver](https://img.shields.io/badge/macOS-Ventura-brightgreen.svg)
 
 ### ⚠️ Disclaimer:
 - This EFI is meant to be for **TEST-ONLY**, I strongly do not recommend trying to use this efi for daily drive
