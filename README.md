@@ -43,6 +43,7 @@ If you decide to flash the lightning bios I **strongly recommend** to already ha
 
 - GPU graphics acceleration RX 6600 XT with Resizable Bar Enabled
 - Audio from rear jack & Monitor output with amd gpu, needs more testing (front speaker)
+- Fan Readings & Control
 - USB ports
 - Ethernet
 
