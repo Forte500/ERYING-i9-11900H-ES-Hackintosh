@@ -18,9 +18,11 @@ alt="erying mobo" width="350">
 ##
 
 ### ⚠️ BIOS Disclaimer:
-This efi is built based on the "Lightning BIOS", if you are still using the default bios be aware that you probably need to redo the USB Mapping process, + audio didn't worked at all for me with every codec for ALC 897.
+<img align="right" src="./resources/splash.jpg"
+alt="10729 lightning bios boot logo" width="210">
+This EFI is built based on the "Lightning BIOS", if you are still using the default bios be aware that you probably need to redo the USB Mapping process, + audio didn't worked at all for me with every codec for ALC 897.
 
-If you decide to flash the lightning bios I **strongly recommend** to already have a bios programmer such as **CH341A**, It has happened to some people to have **bricked** their motherboard during this process
+If you decide to flash the lightning bios I **strongly recommend** to already have a bios programmer such as **CH341A**, It has happened to some people to have [**bricked their motherboard**](https://www.reddit.com/r/EryingMotherboard/comments/15f132j/well_i_bricked_my_motherboard/) during this process.
 
 **[Lightning BIOS reddit post](https://www.reddit.com/r/EryingMotherboard/comments/12xg3n6/thoughts_on_the_more_powerful_bios/)**
 
