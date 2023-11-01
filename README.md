@@ -114,18 +114,3 @@ We need a tool, called [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) from c
 5. **IMPORTANT:** reminder that you need an **invalid serial!** to check copy and paste the second part saying `Serial: XXXXX..` in [Apple's Check Coverage Page](https://checkcoverage.apple.com/), if you get a red message saying "We're sorry, we're unable to check coverage for this serial number."
  then, you're good to go! Otherwise, go back and restart from step `2` (more info [here](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#serial-number-validity))
 
-
-
-## 🛠 Post-install
-<details>
-<summary><strong>Copy EFI to the internal drive</strong></summary>
-  <br>
-
-1. Open terminal. Type `sudo diskutil mountdisk disk0s1` (disk0s1 corresponds to the EFI partition of the internal disk)
-2. Open Finder and copy the entire EFI folder from your USB to the root disk's EFI partition.
-3. Unplug the USB device and reboot your laptop, while rebooting hold down `F11` to access the boot menu.
-4. Boot from `Micron_2210_MTFDHBA512QFD` (or your ssd's name).
-5. To check that everything has gone well repeat `step 3` and look for a new entry called `OpenCore`
-4. Now you can boot macOS without your USB device.  :D
-
-</details>
