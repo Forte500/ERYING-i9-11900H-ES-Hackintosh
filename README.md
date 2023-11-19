@@ -110,7 +110,7 @@ We need a tool, called [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) from c
 1. Download GenSMBIOS from the link above as .ZIP, then extract it.
 2. Start GenSMBIOS and select option `1` to download and install MacSerial
 3. Select option `2` and open the `config.plist` located under `EFI > OC`
-4. Select option `3` and enter `MacBookPro16,1`, serials will be generated
+4. Select option `3` and enter `MacBookPro16,2`, serials will be generated
 5. **IMPORTANT:** reminder that you need an **invalid serial!** to check copy and paste the second part saying `Serial: XXXXX..` in [Apple's Check Coverage Page](https://checkcoverage.apple.com/), if you get a red message saying "We're sorry, we're unable to check coverage for this serial number."
  then, you're good to go! Otherwise, go back and restart from step `2` (more info [here](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#serial-number-validity))
 
