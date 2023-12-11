@@ -35,14 +35,14 @@ If you decide to flash the lightning bios I **strongly recommend** to already ha
 | **Storage 2**  | `Crucial P3 Plus 1TB` (for Windows)                     |
 | **iGPU**       | `Intel UHD graphics xe 32eus (vesa mode/disabled)`      |
 | **dGPU**       | `XFX RX 6600 XT QICK 308`                               |
-| **Audio**      | `ALC897 - layout 67(?)` / `layout 66`                   |
+| **Audio**      | `ALC897 - layout 99 or 98`, `layout 67(custom AppleALC needed)`|
 | **Ethernet**   | `Realtek Gigabit Ethernet`                              |
 | **WiFi**       | N/A (can be added)                                     |
 
 ### ✅️ What works</strong></summary>
 
 - GPU graphics acceleration RX 6600 XT with Resizable Bar Enabled
-- Audio from rear jack & Monitor output with amd gpu, needs more testing (front speaker)
+- Audio (sort of, check below for more info)
 - Fan Readings & Control
 - USB ports
 - Ethernet
@@ -50,12 +50,28 @@ If you decide to flash the lightning bios I **strongly recommend** to already ha
 ### ❌️ What doesn't work
 
 - Power management (WIP)
-- front speaker audio jack
+- some audio ports (check below for more info)
 - Intel iGPU (no drivers)
 - Sleep (probably related to Bios)
 - **+ other things**
 
 ### ⚠️ Known Issues
+<details>
+<summary><strong>🔊 Audio</strong></summary>
+  <br>
+  
+Apparently there is no fully working audio layout for this erying board
+
+|          | layout 67 (custom) | layout 98 | Layout 99 |
+| ------ | --- | --- | --- |
+| Rear line out (green)  | ✅️ | ✅️ | ✅️ |
+| Rear line in (blue)  | ✅️ | ✅️ | ❌️ |
+| Rear Mic in (Pink)  | ❌️ | ❌️ | ✅️ |
+| Front Headphone out  | ❌️ | ❌️ | ✅️ |
+| Front Mic in  | ❌️ | ❌️ | ❌️ |
+
+</details>
+
 
 ~- After Verbose, there's a blackscreen for 2-3 minutes when booting off amd gpu~
 
