@@ -37,7 +37,8 @@ If you decide to flash the lightning bios I **strongly recommend** to already ha
 | **dGPU**       | `XFX RX 6600 XT QICK 308`                               |
 | **Audio**      | `ALC897 - layout 99 or 98`, `layout 67(custom AppleALC needed)`|
 | **Ethernet**   | `Realtek Gigabit Ethernet`                              |
-| **WiFi**       | N/A (can be added)                                     |
+| **PSU**        | `Cooler Master MWE 600W White V2`                       |
+| **WiFi**       | N/A (can be added)                                      |
 
 ### ✅️ What works</strong></summary>
 
