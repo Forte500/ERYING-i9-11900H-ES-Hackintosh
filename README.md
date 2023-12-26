@@ -47,6 +47,8 @@ If you decide to flash the lightning bios I **strongly recommend** to already ha
 - Fan Readings & Control
 - USB ports
 - Ethernet
+- Safari DRM Video Playback 
+  
 
 ### ❌️ What doesn't work
 
