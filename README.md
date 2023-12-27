@@ -75,9 +75,8 @@ Apparently there is no fully working audio layout for this erying board
 
 </details>
 
-
-~- After Verbose, there's a blackscreen for 2-3 minutes when booting off amd gpu~
-
+- Possible Performance issues CPU-side: random TDP drops from 70W to 35W under load 
+- ~After Verbose, there's a blackscreen for 2-3 minutes when booting off amd gpu~
 should have been solved with the `-wegswitchgpu` bootarg, which disable the internal GPU when an external GPU is installed
 
 ### 👨‍🔧 For those who haves an unsupported GPU:
