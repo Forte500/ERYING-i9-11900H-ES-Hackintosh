@@ -5,7 +5,7 @@
 alt="erying mobo" width="350">
 
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.5-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.7-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
 ![macOSver](https://img.shields.io/badge/macOS-Ventura-brightgreen.svg)
 
 ### ⚠️ Disclaimer:
