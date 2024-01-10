@@ -65,13 +65,13 @@ If you decide to flash the lightning bios I **strongly recommend** to already ha
   
 Apparently there is no fully working audio layout for this erying board
 
-|          | layout 67 (custom) | layout 98 | Layout 99 |
-| ------ | --- | --- | --- |
-| Rear line out (green)  | ✅️ | ✅️ | ✅️ |
-| Rear line in (blue)  | ✅️ | ✅️ | ❌️ |
-| Rear Mic in (Pink)  | ❌️ | ❌️ | ✅️ |
-| Front Headphone out  | ❌️ | ❌️ | ✅️ |
-| Front Mic in  | ❌️ | ❌️ | ❌️ |
+|          | Layout 12 | layout 67 (custom) | layout 98 | Layout 99 |
+| ------ | --- | --- | --- | --- |
+| Rear line out (green)   | ✅️ | ✅️ | ✅️ | ✅️ |
+| Rear line in (blue)  | ✅️ | ✅️ | ✅️ | ❌️ |
+| Rear Mic in (Pink)  | ✅️ | ❌️ | ❌️ | ✅️ |
+| Front Headphone out  | ❌️ | ❌️ | ❌️ | ✅️ |
+| Front Mic in  | ❌️⚠️ | ❌️ | ❌️ | ❌️ |
 
 </details>
 
