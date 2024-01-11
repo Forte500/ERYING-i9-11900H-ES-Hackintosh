@@ -13,7 +13,7 @@ alt="erying mobo" width="350">
 - Use this EFI as an **example**, remember to always make your efi so you know how to fix it in case something breaks...
 - This EFI will probably not be constantly updated to the latest version of opencore especially if no major changes are made
 - Please read the whole readme before proceeding
-- The the efi is not cleaned from garbage or useless things
+- The efi is not cleaned from garbage or useless things yet
 - Please, Change the **[SMBIOS serial number](https://github.com/Forte500/ERYING-i9-11900H-ES-Hackintosh/tree/main#generating-smbios)** before using the EFI
 ##
 
