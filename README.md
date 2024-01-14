@@ -9,12 +9,9 @@ alt="erying mobo" width="350">
 ![macOSver](https://img.shields.io/badge/macOS-Ventura-brightgreen.svg)
 
 ### ⚠️ Disclaimer:
-- This EFI is meant to be for **TEST-ONLY**, I strongly do not recommend trying to use this efi for daily drive
-- Use this EFI as an **example**, remember to always make your efi so you know how to fix it in case something breaks...
-- This EFI will probably not be constantly updated to the latest version of opencore especially if no major changes are made
-- Please read the whole readme before proceeding
-- The efi is not cleaned from garbage or useless things yet
-- Please, Change the **[SMBIOS serial number](https://github.com/Forte500/ERYING-i9-11900H-ES-Hackintosh/tree/main#generating-smbios)** before using the EFI
+- This EFI is currently **undergoing testing** and is not recommended for daily use. Keep in mind that minor to major changes may occur during this testing phase. It serves as an example for creating your own EFI, ensuring you can troubleshoot issues that might occur during the process. Keep in mind that future updates may not be regular, especially if there are no major changes to OpenCore. Before proceeding, please read the entire README carefully to avoid missing important details.
+- The EFI is not cleaned from garbage or useless things yet
+- Please, Change the **[SMBIOS serial number](https://github.com/Forte500/ERYING-i9-11900H-ES-Hackintosh#%EF%B8%8F-setup)** before using the EFI
 ##
 
 ### ⚠️ BIOS Disclaimer:
@@ -35,7 +32,7 @@ If you decide to flash the lightning bios I **strongly recommend** to already ha
 | **Storage 2**  | `Crucial P3 Plus 1TB` (for Windows)                     |
 | **iGPU**       | `Intel UHD graphics xe 32eus (vesa mode/disabled)`      |
 | **dGPU**       | `XFX RX 6600 XT QICK 308`                               |
-| **Audio**      | `ALC897 - layout 99 or 98`, `layout 67(custom AppleALC needed)`|
+| **Audio**      | `ALC897 - layout 99 or 12`, `layout 67(custom AppleALC needed)`|
 | **Ethernet**   | `Realtek Gigabit Ethernet`                              |
 | **PSU**        | `Cooler Master MWE 600W White V2`                       |
 | **WiFi**       | N/A (can be added)                                      |
@@ -43,7 +40,7 @@ If you decide to flash the lightning bios I **strongly recommend** to already ha
 ### ✅️ What works</strong></summary>
 
 - GPU graphics acceleration RX 6600 XT with Resizable Bar Enabled
-- Audio (sort of, check below for more info)
+- Audio (sort of, check [this chart](https://github.com/Forte500/ERYING-i9-11900H-ES-Hackintosh#%EF%B8%8F-known-issues) under Audio section for more info)
 - Fan Readings & Control
 - USB ports
 - Ethernet
@@ -53,7 +50,7 @@ If you decide to flash the lightning bios I **strongly recommend** to already ha
 ### ❌️ What doesn't work
 
 - Power management (WIP)
-- some audio ports (check below for more info)
+- some audio ports (check [this chart](https://github.com/Forte500/ERYING-i9-11900H-ES-Hackintosh#%EF%B8%8F-known-issues) under Audio section for more info)
 - Intel iGPU (no drivers)
 - Sleep (probably related to Bios)
 - **+ other things**
@@ -71,7 +68,7 @@ Apparently there is no fully working audio layout for this erying board
 | Rear line in (blue)  | ✅️ | ✅️ | ✅️ | ❌️ |
 | Rear Mic in (Pink)  | ✅️ | ❌️ | ❌️ | ✅️ |
 | Front Headphone out  | ❌️ | ❌️ | ❌️ | ✅️ |
-| Front Mic in  | ❌️⚠️ | ❌️ | ❌️ | ❌️ |
+| Front Mic in  | ❌️⚠️(noise) | ❌️ | ❌️ | ❌️ |
 
 </details>
 
@@ -116,7 +113,7 @@ You can still try out MacOS without graphics acceleration by using the Intel igp
  *optional:* edit `prev-lang:kbd` in config.plist in order to match your keyboard layout and language (mainly relevant in recovery and installation)
   
   default is (<>) which will force the Language Picker to appear at first boot up.
-  More info [here](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake.html#add-4) at the bottom of `7C436110...` etc.
+  More info [here](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#nvram) at the bottom of `7C436110...` etc.
   
   
 - ### Generating SMBIOS:
