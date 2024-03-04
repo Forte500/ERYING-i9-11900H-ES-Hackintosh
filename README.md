@@ -27,6 +27,7 @@ If you decide to flash the lightning bios I **strongly recommend** to already ha
 | Component      | Brand/info                                              |
 |----------------|---------------------------------------------------------|
 | **CPU**        | `Intel Core i9 11900H ES Tiger Lake-H`                  |
+| **Motherboard**| `THM507106`                                             |
 | **RAM**        | `16gb 2*8 Crucial ballistix 3200mhz`                    |
 | **Storage 1**  | `500GB Crucial MX500`                                   |
 | **Storage 2**  | `Crucial P3 Plus 1TB` (for Windows)                     |
@@ -44,7 +45,8 @@ If you decide to flash the lightning bios I **strongly recommend** to already ha
 - Fan Readings & Control
 - USB ports
 - Ethernet
-- Safari DRM Video Playback 
+- Safari DRM Video Playback
+- OTA Updates
   
 
 ### ❌️ What doesn't work
