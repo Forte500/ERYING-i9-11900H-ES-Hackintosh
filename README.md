@@ -36,7 +36,7 @@ Therefore, I **strongly recommend** to have a CH341A programmer on hand, as it c
 | Component      | Brand/info                                              |
 |----------------|---------------------------------------------------------|
 | **CPU**        | `Intel Core i9 11900H ES Tiger Lake-H`                  |
-| **Motherboard**| `THM5071xx variant`                                     |
+| **Motherboard**| `THM5701xx variant`                                     |
 | **BIOS Ver.**  | `THM570111`                                             |
 | **RAM**        | `16gb 2*8 Crucial ballistix 3200mhz`                    |
 | **Storage 1**  | `500GB Crucial MX500`                                   |
