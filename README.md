@@ -5,8 +5,10 @@
 alt="erying mobo" width="350">
 
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.9-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
-![macOSver](https://img.shields.io/badge/macOS-Ventura-brightgreen.svg)
+[![OpenCore](https://img.shields.io/badge/OpenCore-1.0.3-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
+![macOSver](https://img.shields.io/badge/macOS-Ventura-red.svg)
+![macOSver](https://img.shields.io/badge/macOS-Sonoma-brightgreen.svg)
+![macOSver](https://img.shields.io/badge/macOS-Sequoia-cyan.svg)
 
 ### ⚠️ Disclaimer:
 - This EFI is currently **undergoing testing** and is not recommended for daily use. Keep in mind that minor to major changes may occur during this testing phase. It serves as an example for creating your own EFI, ensuring you can troubleshoot issues that might occur during the process. Keep in mind that future updates may not be regular, especially if there are no major changes to OpenCore. Before proceeding, please read the entire README carefully to avoid missing important details.
@@ -43,7 +45,7 @@ Therefore, I **strongly recommend** to have a CH341A programmer on hand, as it c
 | **Storage 2**  | `Crucial P3 Plus 1TB` (for Windows)                     |
 | **iGPU**       | `Intel UHD graphics xe 32eus (vesa mode/disabled)`      |
 | **dGPU**       | `XFX RX 6600 XT QICK 308`                               |
-| **Audio**      | `ALC897 - layout 99 or 12`, `layout 67(custom AppleALC needed)`|
+| **Audio**      | `ALC897 - layout 99 or 12`                              |
 | **Ethernet**   | `Realtek Gigabit Ethernet`                              |
 | **PSU**        | `Cooler Master MWE 600W White V2`                       |
 | **WiFi**       | N/A (can be added)                                      |
@@ -63,6 +65,7 @@ Therefore, I **strongly recommend** to have a CH341A programmer on hand, as it c
 ### ❌️ What doesn't work
 
 - some audio ports (check [this chart](https://github.com/Forte500/ERYING-i9-11900H-ES-Hackintosh#%EF%B8%8F-known-issues) under Audio section for more info)
+- Custom CPU name with revcpuname
 - Intel iGPU (no drivers)
 - Sleep (probably related to Bios)
 - **+ other things**
